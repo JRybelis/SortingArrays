@@ -3,11 +3,11 @@ package sortingarrays;
 public class GameOfEntropy {
 
     public static void main(String[] args) {
-        char[][] field = new char[25][125];
+        char[][] field = new char[50][50];
 
         for (int i = 0; i < field.length; i++) {
             for (int j = 0; j < field[i].length; j++) {
-                if (Math.random() < 0.25) {
+                if (Math.random() < 0.2) {
                     field[i][j] = 'x';
                 } else {
                     field[i][j] = '.';
@@ -18,7 +18,7 @@ public class GameOfEntropy {
             for (int j = 0; j < field[i].length; j++) {
                 System.out.print(field[i][j]);
             }
-            System.out.println("");
+            System.out.println();
         }
         System.out.println("-------------------------------");
 
@@ -27,13 +27,13 @@ public class GameOfEntropy {
             history[cell] = field;
             char[][] newField = new char[field.length][field[0].length];
             for (int i = 0; i < newField.length; i++) {
-                for (int j = 0; j < newField[i].length; i++) {
+                for (int j = 0; j < newField[i].length; j++) {
                     int neighbour = 0;
                     if (i > 0) {
-                        neighbour += (i > 0 && j > 0 && field[i - 1][j - 1] == 'x') ? 1
+                        neighbour += (j > 0 && field[i - 1][j - 1] == 'x') ? 1
                                 : 0;
-                        neighbour += (i > 0 && field[i - 1][j] == 'x') ? 1 : 0;
-                        neighbour += (i > 0 && j < field[i].length - 1 && field[i - 1][j
+                        neighbour += (field[i - 1][j] == 'x') ? 1 : 0;
+                        neighbour += (j < field[i].length - 1 && field[i - 1][j
                                 + 1] == 'x') ? 1 : 0;
                     }
                     neighbour += (j > 0 && field[i][j - 1] == 'x') ? 1 : 0;
