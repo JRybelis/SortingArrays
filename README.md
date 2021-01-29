@@ -47,5 +47,6 @@ It is set up to run for 50 cycles, unless it runs into a loop where the cells st
 |             |             |             |             |             |
 <br/>
 ***
+
 #### An example of the program spotting a repeating sequence (all of the cells deteriorated) and breaking from iteration through life-cycles:<br/>
-! [Entropy] (https://github.com/JRybelis/SortingArrays/blob/master/img/BreakAtCycle20.png)  
+![Entropy] (https://github.com/JRybelis/SortingArrays/blob/master/img/BreakAtCycle20.png?raw=true)  
