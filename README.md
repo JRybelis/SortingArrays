@@ -1,7 +1,7 @@
 
 # Java arrays practice
 <hr>
-> The project showcases three console programmes which utilise arrays to solve problems: 
+> The project showcases three console programs which utilise arrays to solve problems: 
 <hr>
 
 ## Bubble sort: 
@@ -13,21 +13,21 @@ A sorting of a _"two-dimensional"_ array and then pushing its row elements to cy
 ***
 
 ## Game of entropy: 
-A program that creates _"cells"_, represented as the char 'x' and has them either multiply or die each cycle, based on the rules of John Horton Conway's ["Life"](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Rules "Link to the rules on Wikipedia"). 
-![principles](https://redcatlabs.com/2014-10-14_Reverse-GoL/img/2d_life_rules-736575_500x500.gif) 
+A program that creates _"cells"_, represented as the char 'x' and has them either multiply or die each cycle, based on the rules of John Horton Conway's ["Life"](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Rules "Link to the rules on Wikipedia"). <br/>
+![principles](https://redcatlabs.com/2014-10-14_Reverse-GoL/img/2d_life_rules-736575_500x500.gif) <br/>
 
 It is set up to run for 50 cycles, unless it runs into a loop where the cells start repeating the same behaviour. 
 
 ---- 
 An example of a successful game (cells survive through 50 generations): 
-| Life cycles:| 5 cycles    | are         | displayed   | per row     |
+| Life cycles:| 5           | cycles      | displayed   | per row     |
 |-------------|-------------|-------------|-------------|-------------|
 |![Gen. 1](https://github.com/JRybelis/SortingArrays/blob/master/img/Cycle1.png)| ![Gen. 2](https://github.com/JRybelis/SortingArrays/blob/master/img/Cycle2.png)| ![Gen. 3](https://github.com/JRybelis/SortingArrays/blob/master/img/Cycle3.png)| ![Gen. 4](https://github.com/JRybelis/SortingArrays/blob/master/img/Cycle4.png)| ![Gen. 5](https://github.com/JRybelis/SortingArrays/blob/master/img/Cycle5.png)|
-|-------------|-------------|-------------|-------------|-------------|
+|             |             |             |             |             |
 |![Gen. 6](https://github.com/JRybelis/SortingArrays/blob/master/img/Cycle6.png)| ![Gen. 7](https://github.com/JRybelis/SortingArrays/blob/master/img/Cycle7.png)| ![Gen. 8](https://github.com/JRybelis/SortingArrays/blob/master/img/Cycle8.png)| ![Gen. 9](https://github.com/JRybelis/SortingArrays/blob/master/img/Cycle9.png)| ![Gen. 10](https://github.com/JRybelis/SortingArrays/blob/master/img/Cycle10.png)|
-|-------------|-------------|-------------|-------------|-------------|
+|---------------------------------------------------------------------|
 |![Gen. 11](https://github.com/JRybelis/SortingArrays/blob/master/img/Cycle11.png)| ![Gen. 12](https://github.com/JRybelis/SortingArrays/blob/master/img/Cycle12.png)| ![Gen. 13](https://github.com/JRybelis/SortingArrays/blob/master/img/Cycle13.png)| ![Gen. 14](https://github.com/JRybelis/SortingArrays/blob/master/img/Cycle14.png)| ![Gen. 15](https://github.com/JRybelis/SortingArrays/blob/master/img/Cycle15.png)|
-|-------------|-------------|-------------|-------------|-------------|
+|                                                                     |
 |![Gen. 16](https://github.com/JRybelis/SortingArrays/blob/master/img/Cycle16.png)| ![Gen. 17](https://github.com/JRybelis/SortingArrays/blob/master/img/Cycle17.png)| ![Gen. 18](https://github.com/JRybelis/SortingArrays/blob/master/img/Cycle18.png)| ![Gen. 19](https://github.com/JRybelis/SortingArrays/blob/master/img/Cycle19.png)| ![Gen. 20](https://github.com/JRybelis/SortingArrays/blob/master/img/Cycle20.png)|
 |-------------|-------------|-------------|-------------|-------------|
 |![Gen. 21](https://github.com/JRybelis/SortingArrays/blob/master/img/Cycle21.png)| ![Gen. 22](https://github.com/JRybelis/SortingArrays/blob/master/img/Cycle22.png)| ![Gen. 23](https://github.com/JRybelis/SortingArrays/blob/master/img/Cycle23.png)| ![Gen. 24](https://github.com/JRybelis/SortingArrays/blob/master/img/Cycle24.png)| ![Gen. 25](https://github.com/JRybelis/SortingArrays/blob/master/img/Cycle25.png)|
@@ -42,3 +42,7 @@ An example of a successful game (cells survive through 50 generations):
 |-------------|-------------|-------------|-------------|-------------|
 |![Gen. 46](https://github.com/JRybelis/SortingArrays/blob/master/img/Cycle46.png)| ![Gen. 47](https://github.com/JRybelis/SortingArrays/blob/master/img/Cycle47.png)| ![Gen. 48](https://github.com/JRybelis/SortingArrays/blob/master/img/Cycle48.png)| ![Gen. 49](https://github.com/JRybelis/SortingArrays/blob/master/img/Cycle49.png)| ![Gen. 50](https://github.com/JRybelis/SortingArrays/blob/master/img/Cycle50.png)|
 |-------------|-------------|-------------|-------------|-------------|
+<br/>
+---
+An example of a program spotting a repeating sequence (all of the cells deteriorated) and breaking from iteration through life-cycles:<br/>
+![Entropy](https://github.com/JRybelis/SortingArrays/blob/master/img/BreakAtCycle20.png)
