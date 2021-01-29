@@ -9,7 +9,10 @@ A bubble sort of array items in both ascending and descending order.
 ***
 
 ## Dimensional array sort:
-A sorting of a _"two-dimensional"_ array and then pushing its row elements to cycle from left to right, and then from right to left, a little bit more each time it goes down a row. 
+A sorting of a _"two-dimensional"_ array and then pushing its row elements to cycle from left to right, and then from right to left, a little bit more each time it goes down a row. <br/>
+| Array items being sorted ascending and cycled forward | Array items being sorted ascending and cycled reverse |
+|------------|------------|
+|![Forward](https://github.com/JRybelis/SortingArrays/blob/master/img/forwardShift.png?raw=true)|![Reversed](https://github.com/JRybelis/SortingArrays/blob/master/img/reverseShift.png?raw=true)|
 ***
 
 ## Game of entropy: 
@@ -48,5 +51,7 @@ It is set up to run for 50 cycles, unless it runs into a loop where the cells st
 <br/>
 ***
 
-#### An example of the program spotting a repeating sequence (all of the cells deteriorated) and breaking from iteration through life-cycles:<br/>
-![Entropy] (https://github.com/JRybelis/SortingArrays/blob/master/img/BreakAtCycle20.png?raw=true)  
+#### An example of the program spotting a repeating sequence (all of the cells deteriorated) and breaking from iteration through life-cycles:
+
+
+![Entropy]((https://github.com/JRybelis/SortingArrays/blob/master/img/BreakAtCycle20.png?raw=true)  
