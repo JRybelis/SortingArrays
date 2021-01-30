@@ -1,10 +1,11 @@
 
 # Java arrays practice
 <hr>
-[![forthebadgeJava](https://forthebadge.com/images/badges/made-with-java.svg)]
-[![forthebadgeOfficeSpace](https://forthebadge.com/images/badges/compatibility-pc-load-letter.svg)]
-[![forthebadgeLicence](https://img.shields.io/github/license/JRybelis/SortingArrays?style=for-the-badge)]
-[![forthebadgeContributors](https://img.shields.io/github/contributors/JRybelis/SortingArrays?color=bright&style=for-the-badge)] 
+
+![forthebadgeJava](https://forthebadge.com/images/badges/made-with-java.svg)
+![forthebadgeOfficeSpace](https://forthebadge.com/images/badges/compatibility-pc-load-letter.svg)
+![forthebadgeLicence](https://img.shields.io/github/license/JRybelis/SortingArrays?style=for-the-badge)
+![forthebadgeContributors](https://img.shields.io/github/contributors/JRybelis/SortingArrays?color=bright&style=for-the-badge)
 
 
 > The project showcases three console programs which utilise arrays to solve problems: 
@@ -55,9 +56,13 @@ It is set up to run for 50 cycles, unless it runs into a loop where the cells st
 |![Gen. 46](https://github.com/JRybelis/SortingArrays/blob/master/img/Cycle46.png)| ![Gen. 47](https://github.com/JRybelis/SortingArrays/blob/master/img/Cycle47.png)| ![Gen. 48](https://github.com/JRybelis/SortingArrays/blob/master/img/Cycle48.png)| ![Gen. 49](https://github.com/JRybelis/SortingArrays/blob/master/img/Cycle49.png)| ![Gen. 50](https://github.com/JRybelis/SortingArrays/blob/master/img/Cycle50.png)|
 |             |             |             |             |             |
 <br/>
-***
 
 #### An example of the program spotting a repeating sequence (all of the cells deteriorated) and breaking from iteration through life-cycles:
 
 
-[![Entropy](https://github.com/JRybelis/SortingArrays/blob/master/img/BreakAtCycle20.png?raw=true)]  
+![Entropy](https://github.com/JRybelis/SortingArrays/blob/master/img/BreakAtCycle20.png?raw=true)  
+
+
+## License
+
+This code is licenced under the ["MIT"](https://github.com/JRybelis/SortingArrays/blob/master/LICENSE) @ ["JRybelis"](https://github.com/JRybelis)
