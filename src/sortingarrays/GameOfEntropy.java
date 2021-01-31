@@ -23,8 +23,8 @@ public class GameOfEntropy {
         System.out.println("-------------------------------");
 
         char[][][] history = new char[50][field.length][field[0].length];
-        for (int cell = 0; cell < 50; cell++) {
-            history[cell] = field;
+        for (int cycle = 0; cycle < 50; cycle++) {
+            history[cycle] = field;
             char[][] newField = new char[field.length][field[0].length];
             for (int i = 0; i < newField.length; i++) {
                 for (int j = 0; j < newField[i].length; j++) {
@@ -61,7 +61,7 @@ public class GameOfEntropy {
                 }
             }
             int h;
-            for (h = cell; h >= 0; h--) {
+            for (h = cycle; h >= 0; h--) {
                 char[][] f = history[h];
                 boolean match = true;
                 for (int i = 0; match && i < f.length; i++) {
@@ -76,7 +76,7 @@ public class GameOfEntropy {
                 }
             }
             if (h >= 0) {
-                System.out.println("Iteration " + (cell + 1) + " same as " + h);
+                System.out.println("Iteration " + (cycle + 1) + " same as " + h);
                 break;
             }
 
@@ -87,7 +87,7 @@ public class GameOfEntropy {
                 }
                 System.out.println("");
             }
-            System.out.println((cell + 1) + "--------------------");
+            System.out.println((cycle + 1) + "--------------------");
         }
     }
 }
