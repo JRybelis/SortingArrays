@@ -28,7 +28,7 @@ A program that creates _"cells"_, represented as the char 'x' and has them eithe
 
 ![principles](https://redcatlabs.com/2014-10-14_Reverse-GoL/img/2d_life_rules-736575_500x500.gif) <br/>
 
-After it creates the first field of _"cells"_, it is set up to run for 50 cycles, creating or deleting reproducing and destroying cells, according to the rules set out. If it runs into a loop where the cells start repeating the same behaviour, it the program breaks. 
+After it creates the first field of _"cells"_, it is set up to run for 50 cycles, reproducing or destroying cells, according to the rules set out. If it runs into a loop where the cells start repeating the same behaviour, it the program breaks. 
 
 --- 
 
